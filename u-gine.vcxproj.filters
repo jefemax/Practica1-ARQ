@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{bf88a20c-eaa8-4a30-8a81-aa885fe84379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura">
+      <UniqueIdentifier>{60539ae1-978b-4001-9ee7-c721929dbf05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers">
+      <UniqueIdentifier>{427d1c8a-e610-426c-9982-ef0dd9fe77d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files">
+      <UniqueIdentifier>{697df58b-73ec-458a-a120-5f3bd8b3b510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\entities">
+      <UniqueIdentifier>{6762e4bc-b4a6-4e66-bea9-16afa41cc1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\components">
+      <UniqueIdentifier>{c960a876-c1ca-4047-b33d-a82d14d31d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\messages">
+      <UniqueIdentifier>{d876890c-c795-4267-b1be-5173ea1c2a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\states">
+      <UniqueIdentifier>{4519822c-df8f-4bda-b558-629cb59bb5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\states\ownerstates">
+      <UniqueIdentifier>{30213ae7-0afb-46c2-b1f9-63d573900f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\states\statemachines">
+      <UniqueIdentifier>{11dfde72-aaf7-4c60-b70e-7e376ba34ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\entities">
+      <UniqueIdentifier>{991d3fa3-6718-42a4-bc3d-a4885626dab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\components">
+      <UniqueIdentifier>{2a0d4547-7c45-4fa3-a220-7e34699f08d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\messages">
+      <UniqueIdentifier>{e7265f50-8c72-4853-9122-2b4be574d9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\states">
+      <UniqueIdentifier>{34720bb1-affb-46ca-af40-d6d0ff3e7c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\states\statemachines">
+      <UniqueIdentifier>{bf72d0cb-6108-4a98-a5d7-40408c2c0720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\states\ownerstates">
+      <UniqueIdentifier>{f6fe4bd2-c800-4328-b66a-21a2fd61daf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Headers\data">
+      <UniqueIdentifier>{85716188-d79d-4fb0-827d-7c42a22452cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquitectura\Source Files\data">
+      <UniqueIdentifier>{99f50b47-110f-4f44-9c21-af834c8653df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\screen.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stb_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resourcemanager.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bone.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skeletondata.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skeletonsprite.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C_life.cpp">
+      <Filter>Arquitectura\Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemyentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemyownstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menustartentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protaentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\protaownstate.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldownerstate.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuendownerstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menustartownerstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuendentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C_score.cpp">
+      <Filter>Arquitectura\Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\C_collision.cpp">
+      <Filter>Arquitectura\Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>Arquitectura\Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\readdata.cpp">
+      <Filter>Arquitectura\Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menupause.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="include\menupauseownerstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\creditsownerstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\creditsentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuoptionsownerstates.cpp">
+      <Filter>Arquitectura\Source Files\states\ownerstates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuoptionsentity.cpp">
+      <Filter>Arquitectura\Source Files\entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\u-gine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resourcemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bonedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\skeletondata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\skeletonsprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\input.h">
+      <Filter>Arquitectura\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemyentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\component.h">
+      <Filter>Arquitectura\Headers\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\C_life.h">
+      <Filter>Arquitectura\Headers\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuendentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menustartentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message.h">
+      <Filter>Arquitectura\Headers\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="include\messages.h">
+      <Filter>Arquitectura\Headers\messages</Filter>
+    </ClInclude>
+    <ClInclude Include="include\protaentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemyownstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\protaownstate.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\worldownerstate.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\state.h">
+      <Filter>Arquitectura\Headers\states</Filter>
+    </ClInclude>
+    <ClInclude Include="include\statemachine.h">
+      <Filter>Arquitectura\Headers\states\statemachines</Filter>
+    </ClInclude>
+    <ClInclude Include="include\world.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuendownerstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menustartownerstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\C_score.h">
+      <Filter>Arquitectura\Headers\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\C_Collision.h">
+      <Filter>Arquitectura\Headers\components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>Arquitectura\Headers\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\readdata.h">
+      <Filter>Arquitectura\Headers\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menupause.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menupauseownerstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\creditsentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\creditsownerstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuoptionsownerstates.h">
+      <Filter>Arquitectura\Headers\states\ownerstates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menuoptionsentity.h">
+      <Filter>Arquitectura\Headers\entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\box.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\light.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<elem>
+	<key>NUM_ENEM</key>
+	<value>20</value>
+</elem>
+<elem>
+	<key>MAX_LIFE</key>
+	<value>200</value>	
+</elem>
+<elem>
+	<key>ENEMY_SPEED</key>
+	<value>100</value>	
+</elem>
+<elem>
+	<key>SCORE_PER_HIT</key>
+	<value>40</value>	
+</elem>
+</data>
